@@ -1,0 +1,23 @@
+conventions
+each templates file be inside folder contain only one templates with his data file
+example instead of this structure
+templates/
+   about.html
+use this :
+templates/
+   about/
+      index.html
+      index.json
+      g.json
+les variable global sont 
+otherwise you will get problem with g.json file
+
+examples
+iterate on templates files and directory
+
+ small IDE for this project
+
+goals
+build static site without repeat yourself , this let you create static sites version 
+of dynamic site with minimal effor, and create static site with limited pages but creating
+dynamic web sites is not goal of this project.
